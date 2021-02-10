@@ -13,6 +13,8 @@ export const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
 
+  padding: 0px 16px;
+
   & > div {
     display: flex;
     justify-content: flex-start;
@@ -35,6 +37,7 @@ export const Nav = styled.nav`
         font-weight: 200;
 
         padding: 8px 16px;
+
         transition: 0.7s ease;
 
         color: ${(props) => props.theme.gray3};

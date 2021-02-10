@@ -13,6 +13,7 @@ export default createGlobalStyle<ThemeProps<IColors>>`
     box-sizing: border-box;
 
     font-family: 'Mukta', sans-serif;
+    -webkit-font-smoothing: antialiased;  
   }
 
   body {

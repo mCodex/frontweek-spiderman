@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 
 import logoSpiderman from 'assets/svg/logo.svg';
 
@@ -21,27 +20,19 @@ const Navbar: React.FC = () => {
 
           <ul>
             <li>
-              <Link href="#">
-                <a href="#">Home</a>
-              </Link>
+              <a href="/">Home</a>
             </li>
 
             <li>
-              <Link href="#">
-                <a href="#">Story</a>
-              </Link>
+              <a href="/">Story</a>
             </li>
 
             <li>
-              <Link href="#">
-                <a href="#">Wallpapers</a>
-              </Link>
+              <a href="/">Wallpapers</a>
             </li>
 
             <li>
-              <Link href="#">
-                <a href="#">#BEYOURSELF</a>
-              </Link>
+              <a href="/">#BEYOURSELF</a>
             </li>
           </ul>
         </div>

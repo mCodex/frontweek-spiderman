@@ -1,5 +1,8 @@
 import React from 'react';
 
+import psLogo from 'assets/svg/ps.svg';
+import marvelLogo from 'assets/svg/marvel.svg';
+
 import { Container, ContainerItem1, ContainerItem2 } from './styles';
 
 const Home: React.FC = () => {
@@ -17,17 +20,13 @@ const Home: React.FC = () => {
         </p>
 
         <p>
-          <a href="" alt="Pre-order now">
-            Pre-order now
-          </a>
-          <a href="" alt="Pre-order now">
-            Watch the teaser
-          </a>
+          <a href="/">Pre-order now</a>
+          <a href="/">Watch the teaser</a>
         </p>
 
         <p>
-          <img src="/img/ps.svg" alt="Playstation" />
-          <img src="/img/marvel.svg" alt="Marvel" />
+          <img src={psLogo} alt="Playstation" />
+          <img src={marvelLogo} alt="Marvel" />
         </p>
       </ContainerItem1>
 

@@ -1,6 +1,11 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, ThemeProps } from 'styled-components';
 
-export default createGlobalStyle`
+interface IColors {
+  gray3: string;
+  white: string;
+}
+
+export default createGlobalStyle<ThemeProps<IColors>>`
   * {
     margin: 0;
     padding: 0;

@@ -72,7 +72,9 @@ export const Nav = styled.nav`
   }
 `;
 
-export const LogoContainer = styled.div``;
+export const LogoContainer = styled.div`
+  max-width: 88px;
+`;
 
 export const SocialNav = styled.div`
   display: flex;

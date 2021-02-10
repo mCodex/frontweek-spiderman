@@ -1,11 +1,10 @@
 import React from 'react';
 
-import logoSpiderman from 'assets/svg/logo.svg';
-
-import iconTwitter from 'assets/svg/icon-twitter.svg';
-import iconFacebook from 'assets/svg/icon-facebook.svg';
-import iconInstagram from 'assets/svg/icon-instagram.svg';
-import iconYoutube from 'assets/svg/icon-youtube.svg';
+import LogoSpiderman from '../../assets/svg/logo.svg';
+import IconFacebook from '../../assets/svg/icon-facebook.svg';
+import IconInstagram from '../../assets/svg/icon-instagram.svg';
+import IconYouTube from '../../assets/svg/icon-youtube.svg';
+import IconTwitter from '../../assets/svg/icon-twitter.svg';
 
 import { Header, LogoContainer, Nav, SocialNav } from './styles';
 
@@ -15,7 +14,7 @@ const Navbar: React.FC = () => {
       <Nav>
         <div>
           <LogoContainer>
-            <img src={logoSpiderman} alt="Logo" />
+            <LogoSpiderman />
           </LogoContainer>
 
           <ul>
@@ -38,10 +37,10 @@ const Navbar: React.FC = () => {
         </div>
 
         <SocialNav>
-          <img src={iconFacebook} alt="Facebook" />
-          <img src={iconInstagram} alt="Instagram" />
-          <img src={iconYoutube} alt="YouTube" />
-          <img src={iconTwitter} alt="Twitter" />
+          <IconFacebook />
+          <IconInstagram />
+          <IconYouTube />
+          <IconTwitter />
         </SocialNav>
       </Nav>
     </Header>

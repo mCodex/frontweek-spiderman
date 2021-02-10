@@ -1,7 +1,7 @@
 import React from 'react';
 
-import psLogo from 'assets/svg/ps.svg';
-import marvelLogo from 'assets/svg/marvel.svg';
+import PsLogo from '../../assets/svg/ps.svg';
+import MarvelLogo from '../../assets/svg/marvel.svg';
 
 import { Container, ContainerItem1, ContainerItem2 } from './styles';
 
@@ -25,8 +25,8 @@ const Home: React.FC = () => {
         </p>
 
         <p>
-          <img src={psLogo} alt="Playstation" />
-          <img src={marvelLogo} alt="Marvel" />
+          <PsLogo />
+          <MarvelLogo />
         </p>
       </ContainerItem1>
 

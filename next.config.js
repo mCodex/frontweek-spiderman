@@ -6,12 +6,4 @@ module.exports = withImages({
   devIndicators: {
     autoPrerender: false,
   },
-  module: {
-    rules: [
-      {
-        test: /\.svg$/,
-        use: ['@svgr/webpack'],
-      },
-    ],
-  },
 });

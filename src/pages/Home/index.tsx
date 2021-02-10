@@ -10,7 +10,7 @@ const Home: React.FC = () => {
     <Container>
       <ContainerItem1>
         <p>
-          <img src="/img/spiderman-text.png" alt="Spiderman Miles Morales" />
+          <img src="img/spiderman-text.png" alt="Spiderman Miles Morales" />
         </p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis velit
@@ -31,7 +31,7 @@ const Home: React.FC = () => {
       </ContainerItem1>
 
       <ContainerItem2>
-        <img src="/img/spiderman.png" alt="Spiderman" />
+        <img src="img/spiderman.png" alt="Spiderman" />
       </ContainerItem2>
     </Container>
   );
